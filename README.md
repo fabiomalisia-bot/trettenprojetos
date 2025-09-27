@@ -3,19 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha Empresa</title>
+  <title>Minha Empresa - Soluções em Tecnologia</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #222; color: #fff; padding: 20px; text-align: center; }
-    nav a { margin: 0 15px; color: #fff; text-decoration: none; }
-    section { padding: 40px; max-width: 800px; margin: auto; }
-    footer { background: #222; color: #fff; text-align: center; padding: 10px; }
-    .button { background: #28a745; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    header { background: #1a1a1a; color: #fff; padding: 20px 0; text-align: center; }
+    header h1 { margin-bottom: 10px; font-size: 28px; }
+    nav a { margin: 0 15px; color: #fff; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #00c853; }
+
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    section h2 { margin-bottom: 20px; font-size: 24px; color: #1a1a1a; }
+    section p { margin-bottom: 15px; }
+
+    .services ul { list-style: none; }
+    .services li { background: #f4f4f4; margin: 10px 0; padding: 15px; border-left: 5px solid #00c853; }
+
+    .cta { text-align: center; margin-top: 30px; }
+    .button { background: #00c853; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+    .button:hover { background: #009624; }
+
+    footer { background: #1a1a1a; color: #fff; text-align: center; padding: 15px; font-size: 14px; }
   </style>
 </head>
 <body>
+
+  <!-- Cabeçalho -->
   <header>
     <h1>Minha Empresa</h1>
+    <p>Soluções em Tecnologia e Inovação</p>
     <nav>
       <a href="#sobre">Sobre</a>
       <a href="#servicos">Serviços</a>
@@ -23,29 +39,7 @@
     </nav>
   </header>
 
+  <!-- Seção Sobre -->
   <section id="sobre">
     <h2>Sobre Nós</h2>
-    <p>Somos uma empresa especializada em [seu ramo de negócios]. Atuamos com foco em qualidade e atendimento personalizado.</p>
-  </section>
-
-  <section id="servicos">
-    <h2>Nossos Serviços</h2>
-    <ul>
-      <li>✔ Serviço 1</li>
-      <li>✔ Serviço 2</li>
-      <li>✔ Serviço 3</li>
-    </ul>
-  </section>
-
-  <section id="contato">
-    <h2>Fale Conosco</h2>
-    <p>Email: contato@minhaempresa.com</p>
-    <p>WhatsApp: (11) 99999-9999</p>
-    <a href="https://wa.me/5511999999999" class="button">Chamar no WhatsApp</a>
-  </section>
-
-  <footer>
-    <p>© 2025 Minha Empresa - Todos os direitos reservados</p>
-  </footer>
-</body>
-</html>
+    <p>Somos especialistas
